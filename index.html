@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>dark mode with nav menu</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div1 class="theme-switch">
+    <div2 class="switch"></div2>
+  </div1>
+  <ul>
+  <div3 class="navigation">
+    <a href=""class="active">Home</a>
+    <a href="">Gallery</a>
+    <a href="">About us</a>
+    <a href="">History</a>
+    <a href="">Log in</a>
+  </ul>
+  </div3>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+    $(".theme-switch").on("click",()=>{
+       $("body").toggleClass("light-theme");
+    });
+  </script>
+    
+    
+  </body>
+
+</html>
+ 
+
